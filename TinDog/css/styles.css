@@ -1,0 +1,179 @@
+body {
+    font-size: larger;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat-Black", sans-serif;
+    line-height: 1.5;
+}
+
+p {
+    color: #555555;
+    font-weight: 400;
+}
+
+/* Headings */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Title Area */
+
+#title {
+    background-color: #ff4c68;
+    text-align: left;
+    color: white;
+}
+
+.big-heading {
+    font-size: 3.5rem;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.navbar {
+    padding-left: 0;
+    padding-bottom: 4.5rem;
+}
+
+.header-slider-image-space {
+    height: 400px;
+    display: flex;
+}
+
+.header-slider-image {
+    transform: rotate(25deg);
+    height: 700px;
+    position: relative;
+}
+
+.download-button {
+    margin: 2rem 1rem;
+}
+
+/* Feauture Section */
+
+.feauture-box {
+    margin: auto;
+    padding: 2rem;
+    line-height: 1.5;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.home-icons-part-2:hover {
+    color: #ff4c68;
+}
+
+.home-icons-part-2 {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+}
+
+#testimonials img {
+    margin: 2rem;
+    height: 100px;
+    border-radius: 100%;
+}
+
+
+/* Press Section */
+#press {
+    background-color: #ef8172;
+    padding: 0 15% 7%;
+}
+
+#press img {
+    width: 150px;
+    margin: 0 20px;
+}
+
+/* Prcing Section */
+
+.pricing-styling {
+    padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.cta-title {
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+    line-height: 2;
+}
+
+.fa-twitter:hover {
+    color: lightskyblue;
+}
+
+.fa-facebook-square:hover {
+    color: blue;
+}
+
+.fa-instagram:hover {
+    color: lightcoral;
+}
+
+.fa-envelope:hover {
+    color: red;
+}
+
+.footer-icons {
+    margin: 0.5rem;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    #header-slider-image {
+        transform: rotate(0);
+    }
+
+    .download-button {
+        margin: 2rem 0.2rem;
+    }
+}
